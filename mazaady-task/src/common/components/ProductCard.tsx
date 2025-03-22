@@ -20,7 +20,7 @@ const ProductCard = ({ image, price, prodDescription }: IProductCardProps) => {
 				/>
 			</div>
 			<div className="flex flex-col gap-2.5">
-				<div className="text-[#333333] text-lg font-normal">
+				<div className="text-[#333333] text-md sm:text-lg font-normal">
 					{prodDescription}
 				</div>
 				<div className="text-xs uppercase font-semibold opacity-60">
@@ -29,7 +29,7 @@ const ProductCard = ({ image, price, prodDescription }: IProductCardProps) => {
 						<span className="text-[#333333] font-semibold">{price} EGP</span>
 					</p>
 				</div>
-				<div className="flex items-center gap-2">
+				<div className="flex items-center flex-wrap sm:flex-nowrap gap-2">
 					<p>Lot starts in</p>
 					<div className="flex items-center gap-1  py-2 px-4 bg-[#fff5e9] rounded-xl">
 						<p className="text-[#FF951D] font-bold">2</p>
