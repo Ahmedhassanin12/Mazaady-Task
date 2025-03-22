@@ -1,7 +1,9 @@
+"use client";
 import React from "react";
 import OwnerInfo from "./components/OwnerInfo";
 import QrCode from "./components/QrCode";
 import ProductSection from "./components/ProductSection";
+import DynamicFormComponent from "@/common/components/DynamicFormComponent";
 
 const HomeModule = () => {
 	return (
@@ -15,6 +17,7 @@ const HomeModule = () => {
 				</div>
 			</div>
 			<div className="bg-white rounded-xl w-[90%] sm:w-full h-full  flex-[100%] sm:flex-[70%]">
+				<DynamicFormComponent />
 				<ProductSection />
 			</div>
 		</div>
