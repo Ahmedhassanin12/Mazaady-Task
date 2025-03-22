@@ -29,7 +29,21 @@ const ProductCard = ({ image, price, prodDescription }: IProductCardProps) => {
 						<span className="text-[#333333] font-semibold">{price} EGP</span>
 					</p>
 				</div>
-				<p>Lot starts in</p>
+				<div className="flex items-center gap-2">
+					<p>Lot starts in</p>
+					<div className="flex items-center gap-1  py-2 px-4 bg-[#fff5e9] rounded-xl">
+						<p className="text-[#FF951D] font-bold">2</p>
+						<p className="text-sm font-medium text-[#FF951D]">Days</p>
+					</div>
+					<div className="flex items-center gap-1  py-2 px-4 bg-[#fff5e9] rounded-xl">
+						<p className="text-[#FF951D] font-bold">12</p>
+						<p className="text-sm font-medium text-[#FF951D]">Hours</p>
+					</div>
+					<div className="flex items-center gap-1 py-2 px-4 bg-[#fff5e9] rounded-xl">
+						<p className="text-[#FF951D] font-bold">50</p>
+						<p className="text-sm font-medium text-[#FF951D]">Mins</p>
+					</div>
+				</div>
 			</div>
 
 			<button type="button" className="btn btn-square btn-ghost">
