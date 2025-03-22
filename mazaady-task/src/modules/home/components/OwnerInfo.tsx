@@ -21,7 +21,7 @@ const OwnerInfo = () => {
 				is for Mackeup and Skin Care.
 			</p>
 
-			<div className="w-full flex gap-2 py-5">
+			<div className="w-full flex flex-wrap sm:flex-nowrap  gap-2 py-5">
 				<UserStatics icon={<CiUser />} label="Following" count={15} />
 				<UserStatics icon={<FiUsers />} label="Followers" count={20} />
 				<UserStatics icon={<CiStar />} label="rate" count={4} />

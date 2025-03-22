@@ -128,7 +128,7 @@ const DynamicFormComponent = () => {
 
 			<button
 				type="button"
-				className="hidden sm:flex btn border-0 rounded-xl bg-[linear-gradient(90deg,_#D20653_0%,_#FF951D_100%)]"
+				className="flex btn border-0 rounded-xl bg-[linear-gradient(90deg,_#D20653_0%,_#FF951D_100%)]"
 				onClick={handleSubmit}
 			>
 				Submit
